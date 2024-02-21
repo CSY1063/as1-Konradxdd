@@ -27,4 +27,20 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 2em;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
 }
