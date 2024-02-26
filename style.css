@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+h1 {
+    margin: 0.5em 1em;
+}
+
+h3 {
+    font-size: 0.75em;
+    margin: 0.5em 1em;
+    font-weight: lighter;
+}
+
 body {
     background: black;
     color: white;
@@ -32,7 +42,8 @@ nav {
 
 main {
     font-size: 1.5em;
-    margin: 2em 5em;
+    margin: 5em 5em;
+    text-align: center;
     grid-area: main;
 }
 
