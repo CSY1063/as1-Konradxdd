@@ -105,3 +105,10 @@ nav ul li a:hover::after {
         background-position: 0% 85%;
     }
 }
+
+.footerBackground {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.1);
+}
