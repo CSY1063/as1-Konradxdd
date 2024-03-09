@@ -112,3 +112,14 @@ nav ul li a:hover::after {
     height: 120px;
     background: rgba(255, 255, 255, 0.1);
 }
+
+.projectsMain {
+    font-size: 1.5em;
+    margin: 2.1em 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template: auto;
+    text-align: center;
+    align-items: center;
+    grid-area: main;
+}
