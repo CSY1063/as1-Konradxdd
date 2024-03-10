@@ -121,5 +121,20 @@ nav ul li a:hover::after {
     grid-template: auto;
     text-align: center;
     align-items: center;
+    column-gap: 2em;
+    row-gap: 2em;
     grid-area: main;
+}
+
+.blurBackground {
+    width: 800px;
+    height: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
 }
