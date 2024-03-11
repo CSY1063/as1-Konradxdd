@@ -26,14 +26,26 @@
             <h3> University of Northampton Student</h3>
         </header>
     
-        <main>
+        <main class="contactMain">
 
-            <form action="mailto:konrad.piruta23@my.northampton.ac.uk" method="get">
+            <div class="contactInfo"> 
 
-                <textarea name="textArea" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="Submit">
+                <h1> Contact Me</h1>
+                <p class="contactP"> konrad.piruta23@my.northampton.ac.uk</p>
+                <p class="contactP"> 0123456789</p>
+                
+            </div>
+   
+            <div class="contactForm"> 
 
-            </form>
+                <form action="mailto:konrad.piruta23@my.northampton.ac.uk" method="get">
+                    <input type="text" name="Name" placeholder="Enter your name..." required>
+                    <input type="text" name="Email" placeholder="Enter your email..." required>
+                    <textarea name="Message" rows="10" placeholder="Enter your message..."></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </div>
 
         </main>
 

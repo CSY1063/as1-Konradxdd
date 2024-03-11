@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.contactP {
+    margin: 0.5em 3.5em;
+    font-size: 0.65em;
+}
+
 h1 {
     margin: 0.5em 1em;
 }
@@ -43,11 +48,30 @@ nav {
     grid-area: nav;
 }
 
-main {
+.indexMain {
     font-size: 1.5em;
     margin: 2.1em 5em;
     text-align: center;
     align-items: center;
+    grid-area: main;
+}
+
+.projectsMain {
+    font-size: 1.5em;
+    margin: 2.1em 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template: auto;
+    text-align: center;
+    align-items: center;
+    column-gap: 2em;
+    row-gap: 2em;
+    grid-area: main;
+}
+
+.contactMain {
+    font-size: 1.5em;
+    margin: 2.1em 5em;
     grid-area: main;
 }
 
@@ -113,19 +137,6 @@ nav ul li a:hover::after {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.projectsMain {
-    font-size: 1.5em;
-    margin: 2.1em 5em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template: auto;
-    text-align: center;
-    align-items: center;
-    column-gap: 2em;
-    row-gap: 2em;
-    grid-area: main;
-}
-
 .blurBackground {
     width: 800px;
     height: 800px;
@@ -137,4 +148,12 @@ nav ul li a:hover::after {
     align-items: center;
     border-radius: 50px;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.contactInfo {
+
+}
+
+.contactForm {
+    
 }
