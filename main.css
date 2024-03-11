@@ -5,13 +5,17 @@
     box-sizing: border-box;
 }
 
-.contactP {
-    margin: 0.5em 3.5em;
+.contactInfo p {
+    margin: 2em 0em;
     font-size: 0.65em;
 }
 
 h1 {
     margin: 0.5em 1em;
+}
+
+.contactInfo h1 {
+    margin: 0.5em -0.1em;
 }
 
 h3 {
