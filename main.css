@@ -24,19 +24,6 @@ h3 {
     font-weight: lighter;
 }
 
-body {
-    background: black;
-    color: white;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "nav"
-        "header"
-        "main"
-        "footer";
-}
-
 header {
     font-size: 2em;
     margin: 3em 7em;

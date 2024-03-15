@@ -1,3 +1,16 @@
+body {
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+}
+
 .indexMain {
     margin: 1em;
 }
@@ -8,4 +21,35 @@
 
 header {
     margin: 1em;
+    font-size: 1.5em;
+}
+
+.showNav {
+    height: 1.4em;
+    width: 1.8em;
+    display: block;
+    border-top: 0.3em solid white;
+    border-bottom: 0.3em solid white;
+}
+
+.showNav::before {
+    content: '';
+    position: absolute;
+    width: 1.8em;
+    margin-top: 0.3em;
+    border-top: 0.3em solid white;
+}
+
+.hamburgerIcon {
+    padding: 2em;
+}
+
+nav {
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
 }
