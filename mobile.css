@@ -118,7 +118,6 @@ nav {
 }
 
 .footerBackground {
-    position: absolute;
     width: 100%;
     height: 140px;
     background: rgb(31, 30, 30);
@@ -126,4 +125,8 @@ nav {
 
 .reportMain img {
     margin: 2em 2.5em;
+}
+
+footer {
+    padding: 1.5em;
 }
