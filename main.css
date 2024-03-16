@@ -176,3 +176,11 @@ form input, form textarea {
     text-decoration: none;
     color: white;
 }
+
+.reportMain p {
+    margin: 2em;
+}
+
+.reportMain img {
+    margin: 2em 50em;
+}

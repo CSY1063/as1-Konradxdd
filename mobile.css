@@ -123,3 +123,7 @@ nav {
     height: 140px;
     background: rgb(31, 30, 30);
 }
+
+.reportMain img {
+    margin: 2em 2.5em;
+}
