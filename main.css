@@ -183,3 +183,9 @@ form input, form textarea {
 .reportMain img {
     margin: 2em 50em;
 }
+
+.reportMain a {
+    text-decoration: none;
+    color: white;
+    margin: 2em;;
+}
