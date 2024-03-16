@@ -31,14 +31,6 @@ header {
     grid-area: header;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    grid-area: nav;
-}
-
 .indexMain {
     font-size: 1.5em;
     margin: 2.1em 5em;
@@ -71,6 +63,14 @@ footer {
     margin: 2em;
     text-align: center;
     grid-area: footer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-area: nav;
 }
 
 nav ul li {
@@ -125,7 +125,7 @@ nav ul li a:hover::after {
     position: absolute;
     width: 100%;
     height: 120px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(31, 30, 30);
 }
 
 .blurBackground {
