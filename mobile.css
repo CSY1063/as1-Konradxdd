@@ -116,3 +116,10 @@ nav {
 .contactInfo p {
     font-size: 10px;
 }
+
+.footerBackground {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    background: rgb(31, 30, 30);
+}
