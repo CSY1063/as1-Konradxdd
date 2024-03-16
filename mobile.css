@@ -104,3 +104,15 @@ nav {
 .blurBackground {
     border-radius: 30px;
 }
+
+.contactMain {
+    margin: 2.5em 1em;
+}
+
+.contactInfo h1 {
+    font-size: 30px;
+}
+
+.contactInfo p {
+    font-size: 10px;
+}
