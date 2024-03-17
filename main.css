@@ -44,7 +44,6 @@ header {
     margin: 2.1em 5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template: auto;
     text-align: center;
     align-items: center;
     column-gap: 2em;
@@ -188,4 +187,8 @@ form input, form textarea {
     text-decoration: none;
     color: white;
     margin: 2em;;
+}
+
+.video {
+    border: none;
 }
