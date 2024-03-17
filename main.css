@@ -108,14 +108,16 @@ nav ul li a:hover::after {
     animation: animatedBackground 12s infinite linear;
 }
 
-@keyframes animatedBackground{
-    0%{
+@keyframes animatedBackground {
+    0% {
         background-position: 0% 85%;
     }
-    50%{
+
+    50% {
         background-position: 100% 20%;
     }
-    100%{
+
+    100% {
         background-position: 0% 85%;
     }
 }
@@ -179,16 +181,28 @@ form input, form textarea {
     margin: 2em;
 }
 
-.reportMain img {
+.gridImage {
     margin: 2em 50em;
 }
 
 .reportMain a {
     text-decoration: none;
     color: white;
-    margin: 2em;;
+    margin: 2em;
 }
 
 .video {
     border: none;
+}
+
+.validationGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;  
+}
+
+.validationScreenshot img {
+    width: 400px;
+    height: 400px;
 }
